@@ -1,0 +1,5 @@
+1|4324|fusannkaNFK|fulltime|2345.0|4|Dezvoltare
+3|9|Lider de echipa|fulltime|3600.0|34|fsafsafas
+2|432|erwqwq|partime|3000.0|7|Identificare oportunitati de afaceri
+4|432|erwqwq|partime|3000.0|5|Asistenta
+15|432|erwqwq|partime|3000.0|7|Identificare oportunitati de afaceri

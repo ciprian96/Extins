@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="275.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiSarcina.EditSarcinaViewController">
+   <children>
+      <Label layoutX="28.0" layoutY="63.0" text="Id Sarcina: " />
+      <Label layoutX="29.0" layoutY="123.0" text="Descriere: " />
+      <TextField fx:id="idSarcina" layoutX="92.0" layoutY="63.0" prefHeight="24.0" prefWidth="257.0">
+         <font>
+            <Font size="11.0" />
+         </font></TextField>
+      <TextField fx:id="descriere" layoutX="92.0" layoutY="117.0" prefHeight="8.0" prefWidth="257.0">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Add" layoutX="36.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleSave" text="Save" />
+      <Button fx:id="Delete" layoutX="106.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleDelete" text="Delete" />
+      <Button fx:id="Update" layoutX="183.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleUpdate" text="Update" />
+      <Button fx:id="Cancel" layoutX="265.0" layoutY="188.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+   </children>
+</AnchorPane>

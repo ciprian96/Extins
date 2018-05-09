@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="879.0263203463202" y="1141.0">model.ElementFisaModel</node>
+    <node x="2643.265034499761" y="510.5">model.ValidatorSarcina</node>
+    <node x="2929.6390339045224" y="878.0">Repository.SarcinaRepositorySer</node>
+    <node x="28.791666666666742" y="1654.0">GUI.PostControllerView</node>
+    <node x="420.6607142857142" y="1654.0">GuiSarcina.EntitateFisaController</node>
+    <node x="60.0" y="2023.0">GUI.SecondStage</node>
+    <node x="507.8664035473796" y="2176.0">GuiSarcina.EditGuiMain</node>
+    <node x="3448.2650344997605" y="878.0">Repository.RepositoryFromXMLFile</node>
+    <node x="1830.0620346320343" y="1324.0">Controller.PostController</node>
+    <node x="10.5" y="1910.0">GUI.PostCrudView</node>
+    <node x="2052.1120346320345" y="1141.0">model.PostDataModel</node>
+    <node x="3508.265034499761" y="1141.0">model.SarcinaModel</node>
+    <node x="2769.306701166427" y="143.0">model.Validator</node>
+    <node x="518.762987012987" y="510.5">model.ElementFisa</node>
+    <node x="1217.214785840548" y="143.0">model.Sarcina</node>
+    <node x="2964.265034499761" y="486.0">Repository.AbstractRepository</node>
+    <node x="343.9107142857142" y="1797.0">GUI.PostView</node>
+    <node x="692.9043202140462" y="1797.0">GuiSarcina.SarcinaViewController</node>
+    <node x="1887.9050344997606" y="878.0">Repository.PostRepositoryFromFile</node>
+    <node x="2483.598367833094" y="143.0">Repository.ExceptiaMea</node>
+    <node x="2355.2650344997605" y="510.5">model.ValidatorPost</node>
+    <node x="1622.7158791426177" y="1654.0">GuiSarcina.EditSarcinaViewController</node>
+    <node x="809.7706191738815" y="0.0">model.HasId</node>
+    <node x="969.7158791426175" y="510.5">GuiSarcina.EditingCell</node>
+    <node x="232.86717220418427" y="143.0">model.Post</node>
+    <node x="3186.265034499761" y="143.0">Repository.IRepository</node>
+    <node x="1226.7158791426175" y="878.0">Repository.ElementFisaRepository</node>
+    <node x="3471.7433214225603" y="0.0">Utils.Observable</node>
+    <node x="2094.9050344997604" y="2349.0">application.Main</node>
+    <node x="3692.26503449976" y="510.5">Utils.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="GUI.PostCrudView" target="GUI.PostControllerView">
+      <point x="0.0" y="-31.5" />
+      <point x="147.0" y="1890.0" />
+      <point x="162.0625" y="1890.0" />
+      <point x="162.0625" y="1767.0" />
+      <point x="238.16666666666674" y="1767.0" />
+      <point x="41.875" y="31.5" />
+    </edge>
+    <edge source="model.ElementFisa" target="model.Post">
+      <point x="-99.19999999999993" y="-31.5" />
+      <point x="543.5629870129872" y="336.0" />
+      <point x="348.07550553751753" y="336.0" />
+      <point x="36.20833333333326" y="31.5" />
+    </edge>
+    <edge source="Repository.SarcinaRepositorySer" target="model.Sarcina">
+      <point x="-152.57142857142844" y="-31.5" />
+      <point x="2955.067605333094" y="698.0" />
+      <point x="2293.0850344997607" y="698.0" />
+      <point x="2293.0850344997607" y="386.0" />
+      <point x="1366.9747858405483" y="386.0" />
+      <point x="53.76000000000022" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.SarcinaViewController" target="GuiSarcina.EditSarcinaViewController">
+      <point x="69.1875" y="-31.5" />
+      <point x="946.5918202140462" y="1737.0" />
+      <point x="1830.2158791426177" y="1737.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="model.ValidatorPost" target="Repository.ExceptiaMea">
+      <point x="0.0" y="-31.5" />
+      <point x="2488.7650344997605" y="466.0" />
+      <point x="2547.848367833094" y="466.0" />
+      <point x="-64.25" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.SarcinaViewController" target="model.Sarcina">
+      <point x="-69.1875" y="-31.5" />
+      <point x="808.2168202140462" y="1737.0" />
+      <point x="846.5263203463202" y="1737.0" />
+      <point x="846.5263203463202" y="416.0" />
+      <point x="1259.4547858405479" y="416.0" />
+      <point x="-53.76000000000022" y="31.5" />
+    </edge>
+    <edge source="model.ElementFisaModel" target="Repository.ElementFisaRepository">
+      <point x="48.75" y="-31.5" />
+      <point x="1090.27632034632" y="1051.0" />
+      <point x="1257.9658791426175" y="1051.0" />
+      <point x="-156.25" y="31.5" />
+    </edge>
+    <edge source="model.ValidatorSarcina" target="Repository.ExceptiaMea">
+      <point x="0.0" y="-31.5" />
+      <point x="2793.765034499761" y="256.0" />
+      <point x="2633.515034499761" y="256.0" />
+      <point x="21.41666666666697" y="31.5" />
+    </edge>
+    <edge source="application.Main" target="Repository.PostRepositoryFromFile">
+      <point x="30.363636363636488" y="-31.5" />
+      <point x="2208.768670863397" y="2299.0" />
+      <point x="2364.6120346320345" y="2299.0" />
+      <point x="2364.6120346320345" y="981.0" />
+      <point x="2242.6550344997604" y="981.0" />
+      <point x="161.25" y="31.5" />
+    </edge>
+    <edge source="Repository.AbstractRepository" target="Repository.ExceptiaMea">
+      <point x="-160.4000000000001" y="-56.0" />
+      <point x="3004.3650344997604" y="246.0" />
+      <point x="2676.348367833094" y="246.0" />
+      <point x="64.25" y="31.5" />
+    </edge>
+    <edge source="model.ValidatorSarcina" target="model.Sarcina">
+      <point x="-100.33333333333348" y="-31.5" />
+      <point x="2693.431701166427" y="266.0" />
+      <point x="1405.3747858405484" y="266.0" />
+      <point x="92.16000000000031" y="31.5" />
+    </edge>
+    <edge source="Utils.Observer" target="Utils.Observable">
+      <point x="-53.25" y="-31.5" />
+      <point x="3745.51503449976" y="466.0" />
+      <point x="3793.26503449976" y="466.0" />
+      <point x="3793.26503449976" y="123.0" />
+      <point x="3577.1808214225603" y="123.0" />
+      <point x="-15.0625" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="Repository.ElementFisaRepository">
+      <point x="-100.35000000000014" y="-105.0" />
+      <point x="1952.7120346320344" y="1254.0" />
+      <point x="1471.02632034632" y="1254.0" />
+      <point x="1471.02632034632" y="1051.0" />
+      <point x="1507.9658791426175" y="1051.0" />
+      <point x="93.75" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="model.PostDataModel">
+      <point x="33.450000000000045" y="-105.0" />
+      <point x="2086.5120346320346" y="1304.0" />
+      <point x="2100.6120346320345" y="1304.0" />
+      <point x="-97.0" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EditGuiMain" target="GuiSarcina.EntitateFisaController">
+      <point x="-23.090909090909122" y="-31.5" />
+      <point x="611.7754944564705" y="2116.0" />
+      <point x="570.4107142857142" y="2116.0" />
+      <point x="570.4107142857142" y="1737.0" />
+      <point x="571.4940476190475" y="1737.0" />
+      <point x="-30.166666666666742" y="31.5" />
+    </edge>
+    <edge source="Utils.Observable" target="Utils.Observer">
+      <point x="15.0625" y="31.5" />
+      <point x="3607.3058214225603" y="113.0" />
+      <point x="3804.26503449976" y="113.0" />
+      <point x="3804.26503449976" y="466.0" />
+      <point x="3852.01503449976" y="466.0" />
+      <point x="53.25" y="-31.5" />
+    </edge>
+    <edge source="Repository.AbstractRepository" target="Repository.IRepository">
+      <point x="160.4000000000001" y="-56.0" />
+      <point x="3325.1650344997606" y="466.0" />
+      <point x="3306.765034499761" y="466.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Repository.SarcinaRepositorySer" target="Repository.AbstractRepository">
+      <point x="0.0" y="-31.5" />
+      <point x="3107.6390339045224" y="778.0" />
+      <point x="3189.827534499761" y="778.0" />
+      <point x="25.0625" y="56.0" />
+    </edge>
+    <edge source="model.ElementFisa" target="model.HasId">
+      <point x="0.0" y="-31.5" />
+      <point x="642.7629870129871" y="123.0" />
+      <point x="875.0206191738815" y="123.0" />
+      <point x="-21.75" y="31.5" />
+    </edge>
+    <edge source="application.Main" target="Repository.RepositoryFromXMLFile">
+      <point x="60.72727272727252" y="-31.5" />
+      <point x="2239.132307227033" y="2319.0" />
+      <point x="3787.765034499761" y="2319.0" />
+      <point x="3787.765034499761" y="1071.0" />
+      <point x="3740.01503449976" y="1071.0" />
+      <point x="97.24999999999977" y="31.5" />
+    </edge>
+    <edge source="GUI.SecondStage" target="GUI.PostView">
+      <point x="87.0" y="-31.5" />
+      <point x="277.5" y="1998.0" />
+      <point x="451.9107142857142" y="1998.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="model.ElementFisa" target="model.Sarcina">
+      <point x="49.59999999999991" y="-31.5" />
+      <point x="692.3629870129869" y="366.0" />
+      <point x="1221.0547858405482" y="366.0" />
+      <point x="-92.15999999999985" y="31.5" />
+    </edge>
+    <edge source="model.ElementFisaModel" target="model.Post">
+      <point x="-113.75" y="-31.5" />
+      <point x="927.7763203463202" y="1111.0" />
+      <point x="484.09632034632045" y="1111.0" />
+      <point x="484.09632034632045" y="376.0" />
+      <point x="321.74217220418427" y="376.0" />
+      <point x="9.875" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EntitateFisaController" target="Controller.PostController">
+      <point x="164.5454545454545" y="-31.5" />
+      <point x="766.2061688311687" y="1614.0" />
+      <point x="1941.5620346320343" y="1614.0" />
+      <point x="-111.5" y="105.0" />
+    </edge>
+    <edge source="GUI.PostView" target="Controller.PostController">
+      <point x="92.57142857142867" y="-31.5" />
+      <point x="544.4821428571429" y="1757.0" />
+      <point x="2125.27632034632" y="1757.0" />
+      <point x="2125.27632034632" y="1624.0" />
+      <point x="2068.990606060606" y="1624.0" />
+      <point x="15.928571428571331" y="105.0" />
+    </edge>
+    <edge source="Repository.AbstractRepository" target="model.Validator">
+      <point x="-80.19999999999982" y="-56.0" />
+      <point x="3084.565034499761" y="236.0" />
+      <point x="2949.306701166427" y="236.0" />
+      <point x="72.0" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EditingCell" target="model.Sarcina">
+      <point x="0.0" y="-31.5" />
+      <point x="1087.7158791426175" y="456.0" />
+      <point x="1290.174785840548" y="456.0" />
+      <point x="-23.039999999999964" y="31.5" />
+    </edge>
+    <edge source="GUI.PostControllerView" target="model.Post">
+      <point x="-125.625" y="-31.5" />
+      <point x="70.66666666666674" y="1634.0" />
+      <point x="47.77083333333326" y="1634.0" />
+      <point x="47.77083333333326" y="456.0" />
+      <point x="249.32550553751776" y="456.0" />
+      <point x="-62.541666666666515" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EditSarcinaViewController" target="model.Sarcina">
+      <point x="-138.33333333333348" y="-31.5" />
+      <point x="1691.8825458092842" y="1574.0" />
+      <point x="1658.173605928332" y="1574.0" />
+      <point x="1658.173605928332" y="436.0" />
+      <point x="1328.5747858405482" y="436.0" />
+      <point x="15.360000000000127" y="31.5" />
+    </edge>
+    <edge source="application.Main" target="Controller.PostController">
+      <point x="-30.363636363636488" y="-31.5" />
+      <point x="2148.041398136124" y="2259.0" />
+      <point x="2180.27632034632" y="2259.0" />
+      <point x="2180.27632034632" y="1624.0" />
+      <point x="2228.27632034632" y="1624.0" />
+      <point x="175.21428571428555" y="105.0" />
+    </edge>
+    <edge source="model.SarcinaModel" target="Utils.Observer">
+      <point x="67.25" y="-31.5" />
+      <point x="3710.015034499761" y="1101.0" />
+      <point x="3869.76503449976" y="1101.0" />
+      <point x="3869.76503449976" y="848.0" />
+      <point x="3878.64003449976" y="848.0" />
+      <point x="79.875" y="31.5" />
+    </edge>
+    <edge source="GUI.SecondStage" target="GUI.PostCrudView">
+      <point x="0.0" y="-31.5" />
+      <point x="190.5" y="1998.0" />
+      <point x="215.25" y="1998.0" />
+      <point x="68.25" y="31.5" />
+    </edge>
+    <edge source="application.Main" target="model.SarcinaModel">
+      <point x="45.545454545454504" y="-31.5" />
+      <point x="2223.950489045215" y="2309.0" />
+      <point x="3732.431701166427" y="2309.0" />
+      <point x="89.66666666666652" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="model.Post">
+      <point x="-189.55000000000018" y="-105.0" />
+      <point x="1863.512034632034" y="1294.0" />
+      <point x="466.51298701298697" y="1294.0" />
+      <point x="466.51298701298697" y="396.0" />
+      <point x="308.57550553751753" y="396.0" />
+      <point x="-3.2916666666667425" y="31.5" />
+    </edge>
+    <edge source="GUI.PostView" target="GuiSarcina.EntitateFisaController">
+      <point x="0.0" y="-31.5" />
+      <point x="451.9107142857142" y="1777.0" />
+      <point x="450.82738095238096" y="1777.0" />
+      <point x="-150.83333333333337" y="31.5" />
+    </edge>
+    <edge source="Repository.RepositoryFromXMLFile" target="model.Sarcina">
+      <point x="-121.5625" y="-31.5" />
+      <point x="3521.2025344997605" y="658.0" />
+      <point x="2322.7650344997605" y="658.0" />
+      <point x="2322.7650344997605" y="356.0" />
+      <point x="1390.0147858405483" y="356.0" />
+      <point x="76.80000000000018" y="31.5" />
+    </edge>
+    <edge source="Repository.ElementFisaRepository" target="Repository.AbstractRepository">
+      <point x="109.375" y="-31.5" />
+      <point x="1523.5908791426175" y="748.0" />
+      <point x="3039.452534499761" y="748.0" />
+      <point x="-125.3125" y="56.0" />
+    </edge>
+    <edge source="GuiSarcina.EditGuiMain" target="model.Post">
+      <point x="-115.4545454545455" y="-31.5" />
+      <point x="519.4118580928341" y="2156.0" />
+      <point x="0.0" y="2156.0" />
+      <point x="0.0" y="436.0" />
+      <point x="236.1588388708508" y="436.0" />
+      <point x="-75.70833333333348" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="model.ElementFisaModel">
+      <point x="-144.95000000000005" y="-105.0" />
+      <point x="1908.1120346320345" y="1274.0" />
+      <point x="960.2763203463202" y="1274.0" />
+      <point x="-81.25" y="31.5" />
+    </edge>
+    <edge source="application.Main" target="model.PostDataModel">
+      <point x="0.0" y="-31.5" />
+      <point x="2178.4050344997604" y="2279.0" />
+      <point x="2296.2370346320345" y="2279.0" />
+      <point x="2296.2370346320345" y="1234.0" />
+      <point x="2294.6120346320345" y="1234.0" />
+      <point x="97.0" y="31.5" />
+    </edge>
+    <edge source="Repository.ElementFisaRepository" target="model.Sarcina">
+      <point x="15.625" y="-31.5" />
+      <point x="1429.8408791426175" y="858.0" />
+      <point x="1419.7158791426175" y="858.0" />
+      <point x="1419.7158791426175" y="456.0" />
+      <point x="1313.214785840548" y="456.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="Utils.Observable">
+      <point x="211.8499999999999" y="-105.0" />
+      <point x="2264.912034632034" y="1304.0" />
+      <point x="3971.9171554834056" y="1304.0" />
+      <point x="3971.9171554834056" y="83.0" />
+      <point x="3697.6808214225603" y="83.0" />
+      <point x="105.43750000000023" y="31.5" />
+    </edge>
+    <edge source="application.Main" target="GuiSarcina.EditGuiMain">
+      <point x="-75.90909090909099" y="-31.5" />
+      <point x="2102.4959435906694" y="2329.0" />
+      <point x="634.8664035473796" y="2329.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EditGuiMain" target="GuiSarcina.SarcinaViewController">
+      <point x="23.090909090909122" y="-31.5" />
+      <point x="657.9573126382887" y="2116.0" />
+      <point x="805.9013203463202" y="2116.0" />
+      <point x="805.9013203463202" y="1890.0" />
+      <point x="785.1543202140462" y="1890.0" />
+      <point x="-92.25" y="31.5" />
+    </edge>
+    <edge source="model.ValidatorPost" target="model.Validator">
+      <point x="89.0" y="-31.5" />
+      <point x="2577.7650344997605" y="466.0" />
+      <point x="2805.306701166427" y="466.0" />
+      <point x="-72.0" y="31.5" />
+    </edge>
+    <edge source="model.SarcinaModel" target="Utils.Observable">
+      <point x="112.08333333333348" y="-31.5" />
+      <point x="3754.848367833094" y="1121.0" />
+      <point x="3960.9171554834056" y="1121.0" />
+      <point x="3960.9171554834056" y="93.0" />
+      <point x="3667.5558214225603" y="93.0" />
+      <point x="75.31250000000023" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="Utils.Observer">
+      <point x="167.25" y="-105.0" />
+      <point x="2220.3120346320343" y="1284.0" />
+      <point x="3919.1046554834056" y="1284.0" />
+      <point x="3919.1046554834056" y="848.0" />
+      <point x="3896.39003449976" y="848.0" />
+      <point x="97.625" y="31.5" />
+    </edge>
+    <edge source="Repository.PostRepositoryFromFile" target="Repository.AbstractRepository">
+      <point x="43.0" y="-31.5" />
+      <point x="2124.4050344997604" y="758.0" />
+      <point x="3089.577534499761" y="758.0" />
+      <point x="-75.1875" y="56.0" />
+    </edge>
+    <edge source="model.PostDataModel" target="model.Post">
+      <point x="-72.75" y="-31.5" />
+      <point x="2124.8620346320345" y="1021.0" />
+      <point x="501.6796536796535" y="1021.0" />
+      <point x="501.6796536796535" y="356.0" />
+      <point x="334.9088388708508" y="356.0" />
+      <point x="23.041666666666515" y="31.5" />
+    </edge>
+    <edge source="model.Sarcina" target="model.HasId">
+      <point x="0.0" y="-31.5" />
+      <point x="1313.214785840548" y="123.0" />
+      <point x="918.5206191738815" y="123.0" />
+      <point x="21.75" y="31.5" />
+    </edge>
+    <edge source="Repository.PostRepositoryFromFile" target="Repository.ExceptiaMea">
+      <point x="0.0" y="-31.5" />
+      <point x="2081.4050344997604" y="728.0" />
+      <point x="2632.765034499761" y="728.0" />
+      <point x="2632.765034499761" y="456.0" />
+      <point x="2590.681701166427" y="456.0" />
+      <point x="-21.41666666666697" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="model.SarcinaModel">
+      <point x="144.95000000000005" y="-105.0" />
+      <point x="2198.0120346320346" y="1274.0" />
+      <point x="3642.765034499761" y="1274.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EntitateFisaController" target="model.Sarcina">
+      <point x="32.90909090909099" y="-31.5" />
+      <point x="634.5698051948052" y="1554.0" />
+      <point x="816.8463203463203" y="1554.0" />
+      <point x="816.8463203463203" y="386.0" />
+      <point x="1236.414785840548" y="386.0" />
+      <point x="-76.80000000000018" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="Repository.RepositoryFromXMLFile">
+      <point x="100.34999999999991" y="-105.0" />
+      <point x="2153.412034632034" y="1254.0" />
+      <point x="3497.765034499761" y="1254.0" />
+      <point x="3497.765034499761" y="1071.0" />
+      <point x="3545.5150344997605" y="1071.0" />
+      <point x="-97.25" y="31.5" />
+    </edge>
+    <edge source="model.ElementFisaModel" target="Utils.Observer">
+      <point x="146.25" y="-31.5" />
+      <point x="1187.77632034632" y="1081.0" />
+      <point x="3847.76503449976" y="1081.0" />
+      <point x="3847.76503449976" y="858.0" />
+      <point x="3843.14003449976" y="858.0" />
+      <point x="44.375" y="31.5" />
+    </edge>
+    <edge source="Repository.PostRepositoryFromFile" target="model.ValidatorPost">
+      <point x="-43.0" y="-31.5" />
+      <point x="2038.4050344997606" y="718.0" />
+      <point x="2488.7650344997605" y="718.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Repository.RepositoryFromXMLFile" target="Utils.Observer">
+      <point x="170.1875" y="-31.5" />
+      <point x="3812.95253449976" y="858.0" />
+      <point x="3825.39003449976" y="858.0" />
+      <point x="26.625" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EditSarcinaViewController" target="Controller.PostController">
+      <point x="0.0" y="-31.5" />
+      <point x="1830.2158791426177" y="1624.0" />
+      <point x="1973.4191774891774" y="1624.0" />
+      <point x="-79.64285714285711" y="105.0" />
+    </edge>
+    <edge source="Controller.PostController" target="model.Sarcina">
+      <point x="-33.450000000000045" y="-105.0" />
+      <point x="2019.6120346320345" y="1224.0" />
+      <point x="1764.8736059283324" y="1224.0" />
+      <point x="1764.8736059283324" y="416.0" />
+      <point x="1343.9347858405483" y="416.0" />
+      <point x="30.720000000000255" y="31.5" />
+    </edge>
+    <edge source="model.PostDataModel" target="Repository.PostRepositoryFromFile">
+      <point x="-24.25" y="-31.5" />
+      <point x="2173.3620346320345" y="1011.0" />
+      <point x="2049.1550344997604" y="1011.0" />
+      <point x="-32.25" y="31.5" />
+    </edge>
+    <edge source="model.ElementFisaModel" target="model.Sarcina">
+      <point x="16.25" y="-31.5" />
+      <point x="1057.77632034632" y="1041.0" />
+      <point x="1216.2158791426175" y="1041.0" />
+      <point x="1216.2158791426175" y="466.0" />
+      <point x="1297.854785840548" y="466.0" />
+      <point x="-15.360000000000127" y="31.5" />
+    </edge>
+    <edge source="Repository.ElementFisaRepository" target="model.ElementFisa">
+      <point x="-109.375" y="-31.5" />
+      <point x="1304.8408791426175" y="818.0" />
+      <point x="725.4296536796537" y="818.0" />
+      <point x="82.66666666666674" y="31.5" />
+    </edge>
+    <edge source="model.ElementFisaModel" target="model.ElementFisa">
+      <point x="-81.25" y="-31.5" />
+      <point x="960.2763203463202" y="1101.0" />
+      <point x="638.3046536796537" y="1101.0" />
+      <point x="638.3046536796537" y="858.0" />
+      <point x="642.762987012987" y="858.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="GUI.PostView" target="model.Post">
+      <point x="-61.71428571428555" y="-31.5" />
+      <point x="390.19642857142867" y="1777.0" />
+      <point x="385.29166666666674" y="1777.0" />
+      <point x="385.29166666666674" y="456.0" />
+      <point x="269.07550553751776" y="456.0" />
+      <point x="-42.791666666666515" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EntitateFisaController" target="model.ElementFisa">
+      <point x="-65.81818181818176" y="-31.5" />
+      <point x="535.8425324675325" y="1574.0" />
+      <point x="522.6102092352091" y="1574.0" />
+      <point x="522.6102092352091" y="848.0" />
+      <point x="532.5407647907648" y="848.0" />
+      <point x="-110.22222222222217" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.SarcinaViewController" target="GuiSarcina.EntitateFisaController">
+      <point x="-115.3125" y="-31.5" />
+      <point x="762.0918202140462" y="1737.0" />
+      <point x="752.4940476190477" y="1737.0" />
+      <point x="150.83333333333348" y="31.5" />
+    </edge>
+    <edge source="Repository.RepositoryFromXMLFile" target="Repository.AbstractRepository">
+      <point x="72.9375" y="-31.5" />
+      <point x="3715.70253449976" y="618.0" />
+      <point x="3340.202534499761" y="618.0" />
+      <point x="175.4375" y="56.0" />
+    </edge>
+    <edge source="Repository.SarcinaRepositorySer" target="model.ValidatorSarcina">
+      <point x="-50.85714285714312" y="-31.5" />
+      <point x="3056.7818910473793" y="678.0" />
+      <point x="2718.515034499761" y="678.0" />
+      <point x="-75.25" y="31.5" />
+    </edge>
+    <edge source="GUI.PostCrudView" target="GUI.PostView">
+      <point x="78.0" y="-31.5" />
+      <point x="225.0" y="1880.0" />
+      <point x="365.51071428571436" y="1880.0" />
+      <point x="-86.39999999999998" y="31.5" />
+    </edge>
+    <edge source="model.SarcinaModel" target="model.Sarcina">
+      <point x="-112.08333333333348" y="-31.5" />
+      <point x="3530.681701166427" y="971.0" />
+      <point x="1772.5536059283322" y="971.0" />
+      <point x="1772.5536059283322" y="406.0" />
+      <point x="1351.6147858405482" y="406.0" />
+      <point x="38.40000000000009" y="31.5" />
+    </edge>
+    <edge source="Repository.ElementFisaRepository" target="Utils.Observer">
+      <point x="140.625" y="-31.5" />
+      <point x="1554.8408791426175" y="798.0" />
+      <point x="3701.14003449976" y="798.0" />
+      <point x="-97.625" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EntitateFisaController" target="model.Post">
+      <point x="-98.72727272727275" y="-31.5" />
+      <point x="502.9334415584415" y="1554.0" />
+      <point x="448.9296536796535" y="1554.0" />
+      <point x="448.9296536796535" y="416.0" />
+      <point x="295.4088388708508" y="416.0" />
+      <point x="-16.458333333333485" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EditGuiMain" target="GUI.PostView">
+      <point x="-69.27272727272725" y="-31.5" />
+      <point x="565.5936762746524" y="2136.0" />
+      <point x="462.9107142857142" y="2136.0" />
+      <point x="462.9107142857142" y="1880.0" />
+      <point x="495.11071428571427" y="1880.0" />
+      <point x="43.200000000000045" y="31.5" />
+    </edge>
+    <edge source="model.PostDataModel" target="Utils.Observer">
+      <point x="72.75" y="-31.5" />
+      <point x="2270.3620346320345" y="1091.0" />
+      <point x="3858.76503449976" y="1091.0" />
+      <point x="3858.76503449976" y="858.0" />
+      <point x="3860.89003449976" y="858.0" />
+      <point x="62.125" y="31.5" />
+    </edge>
+    <edge source="model.ValidatorSarcina" target="model.Validator">
+      <point x="100.33333333333303" y="-31.5" />
+      <point x="2894.098367833094" y="466.0" />
+      <point x="2877.306701166427" y="466.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Repository.AbstractRepository" target="Utils.Observable">
+      <point x="80.19999999999982" y="-56.0" />
+      <point x="3244.965034499761" y="466.0" />
+      <point x="3175.765034499761" y="466.0" />
+      <point x="3175.765034499761" y="103.0" />
+      <point x="3486.8058214225603" y="103.0" />
+      <point x="-105.4375" y="31.5" />
+    </edge>
+    <edge source="GUI.PostControllerView" target="Controller.PostController">
+      <point x="125.625" y="-31.5" />
+      <point x="321.91666666666674" y="1594.0" />
+      <point x="1877.8477489177485" y="1594.0" />
+      <point x="-175.21428571428578" y="105.0" />
+    </edge>
+    <edge source="GuiSarcina.EditGuiMain" target="GUI.SecondStage">
+      <point x="-92.36363636363637" y="-31.5" />
+      <point x="542.5027671837431" y="2146.0" />
+      <point x="190.5" y="2146.0" />
+      <point x="0.0" y="31.5" />
+    </edge>
+    <edge source="Repository.IRepository" target="Utils.Observable">
+      <point x="0.0" y="-31.5" />
+      <point x="3306.765034499761" y="113.0" />
+      <point x="3516.9308214225603" y="113.0" />
+      <point x="-75.3125" y="31.5" />
+    </edge>
+    <edge source="Repository.ElementFisaRepository" target="model.Post">
+      <point x="-46.875" y="-31.5" />
+      <point x="1367.3408791426175" y="798.0" />
+      <point x="777.2629870129871" y="798.0" />
+      <point x="777.2629870129871" y="316.0" />
+      <point x="361.24217220418427" y="316.0" />
+      <point x="49.375" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="Repository.ExceptiaMea">
+      <point x="189.54999999999995" y="-105.0" />
+      <point x="2242.6120346320345" y="1294.0" />
+      <point x="3938.9171554834056" y="1294.0" />
+      <point x="3938.9171554834056" y="226.0" />
+      <point x="2719.181701166427" y="226.0" />
+      <point x="107.08333333333292" y="31.5" />
+    </edge>
+    <edge source="model.PostDataModel" target="Utils.Observable">
+      <point x="121.25" y="-31.5" />
+      <point x="2318.8620346320345" y="1111.0" />
+      <point x="3880.76503449976" y="1111.0" />
+      <point x="3880.76503449976" y="858.0" />
+      <point x="3949.9171554834056" y="858.0" />
+      <point x="3949.9171554834056" y="103.0" />
+      <point x="3637.4308214225603" y="103.0" />
+      <point x="45.1875" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="Repository.PostRepositoryFromFile">
+      <point x="-11.150000000000091" y="-105.0" />
+      <point x="2041.9120346320342" y="1304.0" />
+      <point x="2030.6120346320345" y="1304.0" />
+      <point x="2030.6120346320345" y="1061.0" />
+      <point x="1920.1550344997606" y="1061.0" />
+      <point x="-161.25" y="31.5" />
+    </edge>
+    <edge source="Repository.PostRepositoryFromFile" target="Utils.Observer">
+      <point x="129.0" y="-31.5" />
+      <point x="2210.4050344997604" y="818.0" />
+      <point x="3736.64003449976" y="818.0" />
+      <point x="-62.125" y="31.5" />
+    </edge>
+    <edge source="Repository.ElementFisaRepository" target="Repository.ExceptiaMea">
+      <point x="46.875" y="-31.5" />
+      <point x="1461.0908791426175" y="708.0" />
+      <point x="2344.7650344997605" y="708.0" />
+      <point x="2344.7650344997605" y="456.0" />
+      <point x="2505.0150344997605" y="456.0" />
+      <point x="-107.08333333333348" y="31.5" />
+    </edge>
+    <edge source="application.Main" target="Repository.ElementFisaRepository">
+      <point x="-60.727272727272975" y="-31.5" />
+      <point x="2117.6777617724874" y="2319.0" />
+      <point x="1449.02632034632" y="2319.0" />
+      <point x="1449.02632034632" y="1061.0" />
+      <point x="1382.9658791426175" y="1061.0" />
+      <point x="-31.25" y="31.5" />
+    </edge>
+    <edge source="model.ValidatorPost" target="model.Post">
+      <point x="-89.0" y="-31.5" />
+      <point x="2399.7650344997605" y="276.0" />
+      <point x="387.57550553751753" y="276.0" />
+      <point x="75.70833333333326" y="31.5" />
+    </edge>
+    <edge source="Repository.PostRepositoryFromFile" target="model.Post">
+      <point x="-86.0" y="-31.5" />
+      <point x="1995.4050344997606" y="678.0" />
+      <point x="805.8463203463203" y="678.0" />
+      <point x="805.8463203463203" y="286.0" />
+      <point x="380.99217220418427" y="286.0" />
+      <point x="69.125" y="31.5" />
+    </edge>
+    <edge source="model.SarcinaModel" target="Repository.RepositoryFromXMLFile">
+      <point x="22.416666666666515" y="-31.5" />
+      <point x="3665.181701166427" y="1071.0" />
+      <point x="3675.181701166427" y="1071.0" />
+      <point x="32.416666666666515" y="31.5" />
+    </edge>
+    <edge source="Controller.PostController" target="model.ElementFisa">
+      <point x="-167.25000000000023" y="-105.0" />
+      <point x="1885.8120346320343" y="1284.0" />
+      <point x="584.262987012987" y="1284.0" />
+      <point x="584.262987012987" y="858.0" />
+      <point x="615.2074314574314" y="858.0" />
+      <point x="-27.555555555555543" y="31.5" />
+    </edge>
+    <edge source="Repository.RepositoryFromXMLFile" target="model.ValidatorSarcina">
+      <point x="-24.3125" y="-31.5" />
+      <point x="3618.4525344997605" y="638.0" />
+      <point x="2869.015034499761" y="638.0" />
+      <point x="75.25" y="31.5" />
+    </edge>
+    <edge source="GUI.PostControllerView" target="GUI.PostCrudView">
+      <point x="-41.875" y="31.5" />
+      <point x="154.41666666666674" y="1777.0" />
+      <point x="118.04166666666674" y="1777.0" />
+      <point x="118.04166666666674" y="1890.0" />
+      <point x="108.0" y="1890.0" />
+      <point x="-39.0" y="-31.5" />
+    </edge>
+    <edge source="GUI.PostCrudView" target="model.Post">
+      <point x="-117.0" y="-31.5" />
+      <point x="30.0" y="1890.0" />
+      <point x="18.291666666666742" y="1890.0" />
+      <point x="18.291666666666742" y="446.0" />
+      <point x="242.74217220418427" y="446.0" />
+      <point x="-69.125" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.SarcinaViewController" target="Controller.PostController">
+      <point x="115.3125" y="-31.5" />
+      <point x="992.7168202140462" y="1767.0" />
+      <point x="2136.27632034632" y="1767.0" />
+      <point x="2136.27632034632" y="1614.0" />
+      <point x="2100.8477489177485" y="1614.0" />
+      <point x="47.78571428571422" y="105.0" />
+    </edge>
+    <edge source="model.ElementFisaModel" target="Utils.Observable">
+      <point x="113.75" y="-31.5" />
+      <point x="1155.27632034632" y="1071.0" />
+      <point x="3437.765034499761" y="1071.0" />
+      <point x="3437.765034499761" y="123.0" />
+      <point x="3547.0558214225603" y="123.0" />
+      <point x="-45.1875" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EditGuiMain" target="model.Sarcina">
+      <point x="69.27272727272725" y="-31.5" />
+      <point x="704.1391308201069" y="2136.0" />
+      <point x="1612.2158791426175" y="2136.0" />
+      <point x="1612.2158791426175" y="446.0" />
+      <point x="1320.894785840548" y="446.0" />
+      <point x="7.679999999999836" y="31.5" />
+    </edge>
+    <edge source="Repository.SarcinaRepositorySer" target="Utils.Observer">
+      <point x="152.57142857142844" y="-31.5" />
+      <point x="3260.210462475951" y="848.0" />
+      <point x="3789.89003449976" y="848.0" />
+      <point x="-8.875" y="31.5" />
+    </edge>
+    <edge source="Repository.AbstractRepository" target="model.HasId">
+      <point x="0.0" y="-56.0" />
+      <point x="3164.765034499761" y="113.0" />
+      <point x="962.0206191738815" y="113.0" />
+      <point x="65.25" y="31.5" />
+    </edge>
+    <edge source="GuiSarcina.EditGuiMain" target="Controller.PostController">
+      <point x="115.4545454545455" y="-31.5" />
+      <point x="750.3209490019251" y="2156.0" />
+      <point x="2169.27632034632" y="2156.0" />
+      <point x="2169.27632034632" y="1614.0" />
+      <point x="2196.4191774891774" y="1614.0" />
+      <point x="143.3571428571429" y="105.0" />
+    </edge>
+    <edge source="model.Post" target="model.HasId">
+      <point x="0.0" y="-31.5" />
+      <point x="311.86717220418427" y="113.0" />
+      <point x="831.5206191738815" y="113.0" />
+      <point x="-65.25" y="31.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="2531.0" y="909.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="441.0" prefWidth="464.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiSarcina.EditGuiMain">
+   <children>
+      <Label layoutX="134.0" layoutY="20.0" prefHeight="45.0" prefWidth="208.0" text="Aplication GUI" textAlignment="JUSTIFY" textFill="#6b14e3" textOverrun="CENTER_ELLIPSIS" underline="true">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="22.0" layoutY="89.0" mnemonicParsing="false" onAction="#handlePost" prefHeight="90.0" prefWidth="99.0" style="-fx-background-image: url('snow2.jpg');" text="Post" textFill="#cf1955">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button layoutX="336.0" layoutY="89.0" mnemonicParsing="false" onAction="#showSarcinaEditDialog" prefHeight="90.0" prefWidth="99.0" style="-fx-background-image: url('snow2.jpg');" text="Sarcina" textFill="#e10c17">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+      <Button layoutX="178.0" layoutY="89.0" mnemonicParsing="false" onAction="#showEntitateFisa" prefHeight="90.0" prefWidth="108.0" text="EntitateFisa" textFill="#dd0e0e" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="617.0" prefWidth="826.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuiSarcina.EntitateFisaController">
+   <center>
+      <SplitPane dividerPositions="0.5" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <items>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <TableView fx:id="fisaTable" editable="true" layoutY="7.0" onMouseClicked="#tableSelected" prefHeight="615.0" prefWidth="409.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="Id" maxWidth="300.0" minWidth="20.0" prefWidth="26.0" text="Id" />
+                      <TableColumn fx:id="post" maxWidth="3000.0" prefWidth="187.0" text="Post" />
+                        <TableColumn fx:id="sarcina" prefWidth="76.0" text="Sarcina" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="684.0" prefWidth="446.0">
+               <children>
+                  <GridPane layoutX="23.0" layoutY="28.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="274.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="79.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="10.0" prefWidth="121.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label text="Id EntitateFisa" />
+                        <Label text="Id Post" GridPane.rowIndex="1" />
+                        <Label layoutX="10.0" layoutY="80.0" text="Denumire" GridPane.rowIndex="2" />
+                        <Label text="Tip" GridPane.rowIndex="3" />
+                        <Label text="Salariu" GridPane.rowIndex="4" />
+                        <Label text="Id" GridPane.rowIndex="5" />
+                        <Label text="Descriere" GridPane.rowIndex="6" />
+                        <TextField fx:id="fieldId" prefHeight="25.0" prefWidth="195.0" GridPane.columnIndex="1" />
+                        <TextField fx:id="fieldIdPost" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <TextField fx:id="fieldDenumirePost" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <TextField fx:id="fieldTipPost" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                        <TextField fx:id="fieldSalariuPost" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                        <TextField fx:id="fieldIdSarcina" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                        <TextField fx:id="fieldDescriereSarcina" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                     </children>
+                  </GridPane>
+                  <Button fx:id="Adauga" layoutX="23.0" layoutY="429.0" mnemonicParsing="false" onAction="#handleSave" text="Adauga" />
+                  <Button fx:id="Sterge" layoutX="98.0" layoutY="429.0" mnemonicParsing="false" onAction="#handleDelete" text="Sterge" />
+                  <Button fx:id="Modifica" layoutX="173.0" layoutY="429.0" mnemonicParsing="false" onAction="#handleUpdate" text="Modifica" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </center>
+</BorderPane>
